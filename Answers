@@ -1,3 +1,5 @@
+-- Find the number of movies each director has directed 
+
 SELECT director, count(director)
 from movies
 group by director
