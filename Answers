@@ -1,0 +1,3 @@
+SELECT director, count(director)
+from movies
+group by director
